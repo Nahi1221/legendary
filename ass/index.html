@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>food menu</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1 class="name">Mini Mar Cafe</h1>
+        <h3 id="Cafe">Cafe Food Menu</h3>
+    </header>
+
+    <main id="blogPosts">
+        <!-- Blog posts will be added here using DOM manipulation -->
+    </main>
+
+    <section class="order">
+        <h2>Order Now</h2>
+        <form id="order-form">
+            <label for="name">Name:</label>
+            <input type="text"  required>
+
+            <label for="email">Email:</label>
+            <input type="email"  required>
+
+            <label for="food-item">Food Item:</label>
+            <select id="food-item"  required>
+                <option value="">Select an item</option>
+                <option value="beyaynet">beyaynet</option>
+                <option value="firfir">firfir</option>
+                <option value="pasta">pasta</option>
+            </select>
+
+            <button  id="Order"> submit</button>
+
+            <p id="order_message"></p>
+        </form>
+    </section>
+<script src="script.js"></script>
+   
+</body>
+</html>
